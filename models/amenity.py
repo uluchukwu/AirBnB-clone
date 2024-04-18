@@ -1,12 +1,10 @@
-#!/usr/bin/python
-""" hold a class called Amenity"""
-    from models.base_model import BaseModel
+#!/usr/bin/python3
+"""This module creates a Amenity class"""
+
+from models.base_model import BaseModel
 
 
-    class Amenity(BaseModel):
-        """Representation of Amenity"""
-        name = ""
+class Amenity(BaseModel):
+    """Class for managing amenity objects"""
 
-        def __int__(self, *args, **kwargs):
-            """initialization of Amenity"""
-            super().__int__(*args, **kwargs)
+    name = ""
